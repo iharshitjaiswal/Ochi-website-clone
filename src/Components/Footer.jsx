@@ -5,7 +5,7 @@ const Footer = () => {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="-0.02"
+      data-scroll-speed="0.1"
       className="containers bg-[#f1f1f1] rounded-tl-3xl rounded-tr-3xl "
     >
       <div className="footer grid grid-cols-5  text-[#212121] pt-20 pb-4 px-4">

@@ -194,21 +194,20 @@ const Eyes = () => {
   return (
     <div
       ref={eyesContainerRef}
-      className="eyes w-full h-screen overflow-hidden "
+      className="eyes w-full h-screen overflow-hidden bg-[#f1f1f1]"
     >
       <div
         data-scroll
-        data-scroll-speed="-0.7s"
+        data-scroll-speed="-0.2s"
         className="
-      relative w-full h-full bg-cover bg-center 
+      relative bg-[#f1f1f1] w-full h-full bg-cover bg-center 
       bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')]
     "
       >
         <div
           data-scroll
-          data-scroll-section
-          data-scroll-speed="0"
-          className="absolute flex gap-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-1/3"
+          data-scroll-speed="0.1"
+          className="absolute flex gap-10 top-1/3 left-1/3 -translate-x-[50%] -translate-y-[50%] w-1/3"
         >
           <div
             ref={eyeRef1}

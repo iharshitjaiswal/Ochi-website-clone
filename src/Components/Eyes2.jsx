@@ -83,8 +83,7 @@ const Eyes2 = () => {
   return (
     <div
       data-scroll
-      data-scroll-section
-      data-scroll-speed="-.1"
+      data-scroll-speed="0.2"
       ref={eyesContainerRef}
       className="bg-[#cdea68] eyes rounded-tl-3xl rounded-tr-3xl"
     >
@@ -98,7 +97,7 @@ const Eyes2 = () => {
           <div
             data-scroll
             data-scroll-section
-            data-scroll-speed="-0.2"
+            data-scroll-speed="0.2"
             className="absolute top-[40%] flex gap-10  left-[36%] -translate-x-1/2 -translate-y-1/2 w-1/3"
           >
             <div

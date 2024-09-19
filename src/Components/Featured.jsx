@@ -21,7 +21,7 @@ const Featured = () => {
   return (
     <div
       data-scroll
-      data-scroll-speed="-0.002"
+      data-scroll-speed="0.02"
       className="w-full py-10 bg-[#f1f1f1] rounded-tl-3xl rounded-tr-3xl"
     >
       <div className="w-full border-b-[1px] border-zinc-400 ">
