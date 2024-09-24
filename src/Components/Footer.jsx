@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <div
       data-scroll
-      data-scroll-section
       data-scroll-speed="0.1"
       className="containers bg-[#f1f1f1] rounded-tl-3xl rounded-tr-3xl "
     >
