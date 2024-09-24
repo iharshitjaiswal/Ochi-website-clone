@@ -23,6 +23,7 @@ function App() {
       
       // Reload the page
       window.location.reload();
+      
     }
   }, []);
 
