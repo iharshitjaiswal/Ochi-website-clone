@@ -9,9 +9,22 @@ import Clients_review from "./Components/Clients_review";
 import Eyes2 from "./Components/Eyes2";
 import Footer from "./Components/Footer";
 import LocomotiveScroll from "locomotive-scroll";
+import { useEffect } from "react";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
+  useEffect(() => {
+    // Check if the page has already been reloaded during this session
+    const hasReloaded = sessionStorage.getItem('hasReloaded');
+
+    if (!hasReloaded) {
+      // Set a flag to prevent further reloads in this session
+      sessionStorage.setItem('hasReloaded', 'true');
+      
+      // Reload the page
+      window.location.reload();
+    }
+  }, []);
 
   return (
     <>
